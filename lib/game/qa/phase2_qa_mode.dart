@@ -18,8 +18,11 @@ enum Phase2QaMode {
 }
 
 extension Phase2QaModeX on Phase2QaMode {
-  static Phase2QaMode parse(String? raw) {
-    if (!kDebugMode || raw == null || raw.trim().isEmpty) {
+  static Phase2QaMode parse(
+    String? raw, {
+    bool debugEnabled = kDebugMode,
+  }) {
+    if (!debugEnabled || raw == null || raw.trim().isEmpty) {
       return Phase2QaMode.normal;
     }
     final normalized = raw.trim().toLowerCase();
