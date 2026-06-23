@@ -1,0 +1,47 @@
+name: Phase 2 Runtime Acceptance
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [phase2-acceptance-closure]
+
+permissions:
+  contents: read
+
+jobs:
+  android-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - name: Enable KVM
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - run: flutter pub get
+      - run: flutter analyze
+      - run: flutter test
+      - name: Run emulator and collect frames
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          target: google_apis
+          arch: x86_64
+          profile: pixel_6
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          disable-animations: true
+          script: pwsh -NoProfile -ExecutionPolicy Bypass -File tool/capture_phase2_android_screenshots.ps1 -Force
+      - uses: actions/upload-artifact@v4
+        with:
+          name: phase2-runtime-android
+          path: docs/visual_qa/phase2/runtime_android
+          if-no-files-found: error
