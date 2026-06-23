@@ -1,4 +1,5 @@
 import '../../game_core/game_core.dart';
+import '../qa/phase2_qa_mode.dart';
 
 class PrototypeLevelBundle {
   const PrototypeLevelBundle({
@@ -116,12 +117,58 @@ class PrototypeLevels {
       ),
       solutionOrder: const [
         'g_right',
+        'g_blocked',
         'b_up',
         'r_left',
         'y_down',
-        'g_blocked',
         'r_down',
       ],
+    );
+  }
+
+  static PrototypeLevelBundle forQaMode(Phase2QaMode mode) {
+    return switch (mode) {
+      Phase2QaMode.wrongColorGate => _withRightGate(
+        const GateSlot(id: 'qa_wrong_red', color: ArrowColor.red),
+      ),
+      Phase2QaMode.noGateAligned => _withRightGate(null),
+      Phase2QaMode.lockedGate => _withRightGate(
+        const GateSlot(
+          id: 'qa_locked_green',
+          color: ArrowColor.green,
+          isLocked: true,
+        ),
+      ),
+      Phase2QaMode.levelComplete => _singleRequiredArrow(),
+      Phase2QaMode.levelFailed => playable(lives: 1),
+      Phase2QaMode.visualDebugLevel => visualDebug(),
+      _ => playable(),
+    };
+  }
+
+  static PrototypeLevelBundle _withRightGate(GateSlot? gate) {
+    final bundle = playable();
+    final lanes = Map<GateEdge, GateLane>.from(bundle.gameState.lanes);
+    final right = lanes[GateEdge.right]!;
+    final slots = List<GateSlot?>.from(right.slots);
+    slots[2] = gate;
+    lanes[GateEdge.right] = right.copyWith(slots: slots);
+    return PrototypeLevelBundle(
+      gameState: bundle.gameState.copyWith(lanes: lanes),
+      solutionOrder: bundle.solutionOrder,
+    );
+  }
+
+  static PrototypeLevelBundle _singleRequiredArrow() {
+    final bundle = playable();
+    return PrototypeLevelBundle(
+      gameState: bundle.gameState.copyWith(
+        level: const LevelDefinition(
+          id: 'phase2_qa_completion',
+          requiredArrowIds: {'g_right'},
+        ),
+      ),
+      solutionOrder: const ['g_right'],
     );
   }
 
