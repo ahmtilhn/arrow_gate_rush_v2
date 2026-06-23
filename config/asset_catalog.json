@@ -1,0 +1,4083 @@
+[
+  {
+    "id": "backgrounds_decor_flora_cluster_blue_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flora_cluster_blue_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      131,
+      91
+    ]
+  },
+  {
+    "id": "backgrounds_decor_flora_cluster_pink_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flora_cluster_pink_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      134,
+      81
+    ]
+  },
+  {
+    "id": "backgrounds_decor_flora_cluster_white_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flora_cluster_white_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      109,
+      88
+    ]
+  },
+  {
+    "id": "backgrounds_decor_flower_cluster_peach_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_cluster_peach_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      99,
+      89
+    ]
+  },
+  {
+    "id": "backgrounds_decor_flower_cluster_pink_purple",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_cluster_pink_purple.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      90,
+      84
+    ]
+  },
+  {
+    "id": "backgrounds_decor_flower_cluster_purple",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_cluster_purple.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      95,
+      77
+    ]
+  },
+  {
+    "id": "backgrounds_decor_flower_cluster_salmon_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_cluster_salmon_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      85,
+      86
+    ]
+  },
+  {
+    "id": "backgrounds_decor_flower_pink_single",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_pink_single.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      132,
+      131
+    ]
+  },
+  {
+    "id": "backgrounds_decor_flower_yellow_single",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_yellow_single.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      100,
+      97
+    ]
+  },
+  {
+    "id": "backgrounds_decor_grass_blade_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_blade_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      87,
+      84
+    ]
+  },
+  {
+    "id": "backgrounds_decor_grass_clump_large",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_clump_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      124,
+      85
+    ]
+  },
+  {
+    "id": "backgrounds_decor_grass_patch_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_patch_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      84,
+      41
+    ]
+  },
+  {
+    "id": "backgrounds_decor_grass_patch_wide",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_patch_wide.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      92,
+      49
+    ]
+  },
+  {
+    "id": "backgrounds_decor_grass_tiny",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_tiny.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      71,
+      42
+    ]
+  },
+  {
+    "id": "backgrounds_decor_leaf_cluster_large",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/leaf_cluster_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      139,
+      91
+    ]
+  },
+  {
+    "id": "backgrounds_decor_leaf_cluster_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/leaf_cluster_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      107,
+      78
+    ]
+  },
+  {
+    "id": "backgrounds_decor_pebble_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/pebble_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      56,
+      43
+    ]
+  },
+  {
+    "id": "backgrounds_decor_rock_cluster_large",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_cluster_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      113,
+      57
+    ]
+  },
+  {
+    "id": "backgrounds_decor_rock_cluster_medium",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_cluster_medium.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      79,
+      52
+    ]
+  },
+  {
+    "id": "backgrounds_decor_rock_moss_cluster",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_moss_cluster.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      86,
+      50
+    ]
+  },
+  {
+    "id": "backgrounds_decor_rock_single_medium",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_single_medium.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      76,
+      51
+    ]
+  },
+  {
+    "id": "backgrounds_decor_rock_single_small",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_single_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      59,
+      49
+    ]
+  },
+  {
+    "id": "backgrounds_decor_rock_small_duo",
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_small_duo.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      105,
+      97
+    ]
+  },
+  {
+    "id": "backgrounds_ground_ground_corner_right",
+    "path": "assets/arrow_gate_rush/backgrounds/ground/ground_corner_right.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      140,
+      173
+    ]
+  },
+  {
+    "id": "backgrounds_ground_ground_platform_long",
+    "path": "assets/arrow_gate_rush/backgrounds/ground/ground_platform_long.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      725,
+      100
+    ]
+  },
+  {
+    "id": "backgrounds_ground_ground_platform_medium",
+    "path": "assets/arrow_gate_rush/backgrounds/ground/ground_platform_medium.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      235,
+      95
+    ]
+  },
+  {
+    "id": "backgrounds_ground_ground_platform_short",
+    "path": "assets/arrow_gate_rush/backgrounds/ground/ground_platform_short.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      85,
+      86
+    ]
+  },
+  {
+    "id": "backgrounds_overlays_light_rays_soft",
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/light_rays_soft.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      172,
+      115
+    ]
+  },
+  {
+    "id": "backgrounds_overlays_shadow_branch_soft",
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_branch_soft.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      138,
+      125
+    ]
+  },
+  {
+    "id": "backgrounds_overlays_shadow_corner_leaves_soft",
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_corner_leaves_soft.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      195,
+      155
+    ]
+  },
+  {
+    "id": "backgrounds_overlays_shadow_leaves_soft",
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_leaves_soft.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      197,
+      135
+    ]
+  },
+  {
+    "id": "backgrounds_overlays_shadow_soft_square",
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_soft_square.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      157,
+      141
+    ]
+  },
+  {
+    "id": "backgrounds_overlays_shadow_vignette_left",
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_vignette_left.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "decorative_layer",
+    "notes": "Behind board/UI unless overlay.",
+    "component": "BackgroundDecoration",
+    "pixel_size": [
+      167,
+      161
+    ]
+  },
+  {
+    "id": "backgrounds_parallax_bush_line_strip",
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/bush_line_strip.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "cover",
+    "anchor": "bottom_center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "parallax_layer",
+    "notes": "Use documented z-order.",
+    "component": "GardenBackgroundLayer",
+    "pixel_size": [
+      1208,
+      144
+    ]
+  },
+  {
+    "id": "backgrounds_parallax_foreground_garden_strip",
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/foreground_garden_strip.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "cover",
+    "anchor": "bottom_center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "parallax_layer",
+    "notes": "Use documented z-order.",
+    "component": "GardenBackgroundLayer",
+    "pixel_size": [
+      1213,
+      140
+    ]
+  },
+  {
+    "id": "backgrounds_parallax_mountain_horizon_strip",
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/mountain_horizon_strip.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "cover",
+    "anchor": "bottom_center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "parallax_layer",
+    "notes": "Use documented z-order.",
+    "component": "GardenBackgroundLayer",
+    "pixel_size": [
+      625,
+      76
+    ]
+  },
+  {
+    "id": "backgrounds_parallax_sky_full",
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/sky_full.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "cover",
+    "anchor": "bottom_center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "parallax_layer",
+    "notes": "Use documented z-order.",
+    "component": "GardenBackgroundLayer",
+    "pixel_size": [
+      1191,
+      258
+    ]
+  },
+  {
+    "id": "backgrounds_parallax_tree_line_strip",
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/tree_line_strip.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "cover",
+    "anchor": "bottom_center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "all"
+    ],
+    "behavior": "parallax_layer",
+    "notes": "Use documented z-order.",
+    "component": "GardenBackgroundLayer",
+    "pixel_size": [
+      1208,
+      141
+    ]
+  },
+  {
+    "id": "branding_app_icon_app_icon_alternate_transparent",
+    "path": "assets/arrow_gate_rush/branding/app_icon/app_icon_alternate_transparent.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "splash",
+      "loading",
+      "main_menu",
+      "store"
+    ],
+    "behavior": "static",
+    "notes": "Transparent source. Flatten to opaque background for iOS app-icon export.",
+    "component": "BrandingAsset",
+    "pixel_size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "branding_app_icon_app_icon_primary_transparent",
+    "path": "assets/arrow_gate_rush/branding/app_icon/app_icon_primary_transparent.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "splash",
+      "loading",
+      "main_menu",
+      "store"
+    ],
+    "behavior": "static",
+    "notes": "Transparent source. Flatten to opaque background for iOS app-icon export.",
+    "component": "BrandingAsset",
+    "pixel_size": [
+      1024,
+      1024
+    ]
+  },
+  {
+    "id": "branding_logo_logo_stacked",
+    "path": "assets/arrow_gate_rush/branding/logo/logo_stacked.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "splash",
+      "loading",
+      "main_menu",
+      "store"
+    ],
+    "behavior": "static",
+    "notes": "Transparent source. Flatten to opaque background for iOS app-icon export.",
+    "component": "BrandingAsset",
+    "pixel_size": [
+      422,
+      384
+    ]
+  },
+  {
+    "id": "branding_logo_logo_wide",
+    "path": "assets/arrow_gate_rush/branding/logo/logo_wide.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "splash",
+      "loading",
+      "main_menu",
+      "store"
+    ],
+    "behavior": "static",
+    "notes": "Transparent source. Flatten to opaque background for iOS app-icon export.",
+    "component": "BrandingAsset",
+    "pixel_size": [
+      1120,
+      544
+    ]
+  },
+  {
+    "id": "effects_broken_arrow_red",
+    "path": "assets/arrow_gate_rush/effects/broken_arrow_red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      259,
+      225
+    ]
+  },
+  {
+    "id": "effects_burst_star_gold",
+    "path": "assets/arrow_gate_rush/effects/burst_star_gold.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      190,
+      148
+    ]
+  },
+  {
+    "id": "effects_burst_white_large",
+    "path": "assets/arrow_gate_rush/effects/burst_white_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      297,
+      177
+    ]
+  },
+  {
+    "id": "effects_coin_burst_gold",
+    "path": "assets/arrow_gate_rush/effects/coin_burst_gold.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      278,
+      238
+    ]
+  },
+  {
+    "id": "effects_gate_burst_gold_large",
+    "path": "assets/arrow_gate_rush/effects/gate_burst_gold_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      356,
+      300
+    ]
+  },
+  {
+    "id": "effects_glow_blue_small",
+    "path": "assets/arrow_gate_rush/effects/glow_blue_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      126,
+      150
+    ]
+  },
+  {
+    "id": "effects_glow_green_small",
+    "path": "assets/arrow_gate_rush/effects/glow_green_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      135,
+      151
+    ]
+  },
+  {
+    "id": "effects_glow_red_small",
+    "path": "assets/arrow_gate_rush/effects/glow_red_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      137,
+      148
+    ]
+  },
+  {
+    "id": "effects_glow_yellow_small",
+    "path": "assets/arrow_gate_rush/effects/glow_yellow_small.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      174,
+      161
+    ]
+  },
+  {
+    "id": "effects_loading_dots_gold",
+    "path": "assets/arrow_gate_rush/effects/loading_dots_gold.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      149,
+      138
+    ]
+  },
+  {
+    "id": "effects_path_glow_horizontal_long",
+    "path": "assets/arrow_gate_rush/effects/path_glow_horizontal_long.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      313,
+      86
+    ]
+  },
+  {
+    "id": "effects_path_glow_horizontal_short",
+    "path": "assets/arrow_gate_rush/effects/path_glow_horizontal_short.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      204,
+      86
+    ]
+  },
+  {
+    "id": "effects_path_glow_vertical_strip",
+    "path": "assets/arrow_gate_rush/effects/path_glow_vertical_strip.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      91,
+      232
+    ]
+  },
+  {
+    "id": "effects_smoke_puff_gray",
+    "path": "assets/arrow_gate_rush/effects/smoke_puff_gray.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      172,
+      174
+    ]
+  },
+  {
+    "id": "effects_star_trail_gold",
+    "path": "assets/arrow_gate_rush/effects/star_trail_gold.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      257,
+      235
+    ]
+  },
+  {
+    "id": "effects_target_ring_gold",
+    "path": "assets/arrow_gate_rush/effects/target_ring_gold.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      181,
+      180
+    ]
+  },
+  {
+    "id": "effects_wrong_mark_red",
+    "path": "assets/arrow_gate_rush/effects/wrong_mark_red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      141,
+      106
+    ]
+  },
+  {
+    "id": "effects_wrong_tap_cross_red",
+    "path": "assets/arrow_gate_rush/effects/wrong_tap_cross_red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "results",
+      "loading"
+    ],
+    "behavior": "temporary_effect",
+    "notes": "Use additive/screen blend when appropriate and remove after animation.",
+    "component": "FlameEffectSprite",
+    "pixel_size": [
+      276,
+      257
+    ]
+  },
+  {
+    "id": "gameplay_arrows_blue_down",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/blue/down.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      154,
+      150
+    ]
+  },
+  {
+    "id": "gameplay_arrows_blue_left",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/blue/left.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      152,
+      150
+    ]
+  },
+  {
+    "id": "gameplay_arrows_blue_right",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/blue/right.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      153,
+      150
+    ]
+  },
+  {
+    "id": "gameplay_arrows_blue_up",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/blue/up.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      153,
+      150
+    ]
+  },
+  {
+    "id": "gameplay_arrows_green_down",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/green/down.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      154,
+      151
+    ]
+  },
+  {
+    "id": "gameplay_arrows_green_left",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/green/left.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      152,
+      151
+    ]
+  },
+  {
+    "id": "gameplay_arrows_green_right",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/green/right.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      153,
+      151
+    ]
+  },
+  {
+    "id": "gameplay_arrows_green_up",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/green/up.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      153,
+      151
+    ]
+  },
+  {
+    "id": "gameplay_arrows_red_down",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/red/down.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      154,
+      152
+    ]
+  },
+  {
+    "id": "gameplay_arrows_red_left",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/red/left.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      153,
+      152
+    ]
+  },
+  {
+    "id": "gameplay_arrows_red_right",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/red/right.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      153,
+      152
+    ]
+  },
+  {
+    "id": "gameplay_arrows_red_up",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/red/up.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      155,
+      152
+    ]
+  },
+  {
+    "id": "gameplay_arrows_yellow_down",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/yellow/down.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      154,
+      151
+    ]
+  },
+  {
+    "id": "gameplay_arrows_yellow_left",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/yellow/left.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      152,
+      151
+    ]
+  },
+  {
+    "id": "gameplay_arrows_yellow_right",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/yellow/right.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      153,
+      151
+    ]
+  },
+  {
+    "id": "gameplay_arrows_yellow_up",
+    "path": "assets/arrow_gate_rush/gameplay/arrows/yellow/up.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "matching colored gate",
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "tap_target_and_launch",
+    "notes": "Scale to 82-88% of grid cell. Never recolor.",
+    "component": "ArrowTileComponent",
+    "pixel_size": [
+      153,
+      151
+    ]
+  },
+  {
+    "id": "gameplay_board_cells_empty_beige_compact",
+    "path": "assets/arrow_gate_rush/gameplay/board/cells/empty_beige_compact.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "grid",
+      "arrows",
+      "gates"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "static",
+    "notes": "No tint. Preserve aspect ratio.",
+    "component": "StoneBoardComponent",
+    "pixel_size": [
+      154,
+      153
+    ]
+  },
+  {
+    "id": "gameplay_board_cells_empty_beige_large",
+    "path": "assets/arrow_gate_rush/gameplay/board/cells/empty_beige_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "grid",
+      "arrows",
+      "gates"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "static",
+    "notes": "No tint. Preserve aspect ratio.",
+    "component": "StoneBoardComponent",
+    "pixel_size": [
+      204,
+      228
+    ]
+  },
+  {
+    "id": "gameplay_board_frame_corner_left",
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/corner_left.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "grid",
+      "arrows",
+      "gates"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "static",
+    "notes": "No tint. Preserve aspect ratio.",
+    "component": "StoneBoardComponent",
+    "pixel_size": [
+      122,
+      134
+    ]
+  },
+  {
+    "id": "gameplay_board_frame_corner_right",
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/corner_right.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "grid",
+      "arrows",
+      "gates"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "static",
+    "notes": "No tint. Preserve aspect ratio.",
+    "component": "StoneBoardComponent",
+    "pixel_size": [
+      117,
+      129
+    ]
+  },
+  {
+    "id": "gameplay_board_frame_cross_junction",
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/cross_junction.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "grid",
+      "arrows",
+      "gates"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "static",
+    "notes": "No tint. Preserve aspect ratio.",
+    "component": "StoneBoardComponent",
+    "pixel_size": [
+      144,
+      147
+    ]
+  },
+  {
+    "id": "gameplay_board_frame_horizontal_long",
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/horizontal_long.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "grid",
+      "arrows",
+      "gates"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "static",
+    "notes": "No tint. Preserve aspect ratio.",
+    "component": "StoneBoardComponent",
+    "pixel_size": [
+      238,
+      64
+    ]
+  },
+  {
+    "id": "gameplay_board_frame_horizontal_short",
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/horizontal_short.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "grid",
+      "arrows",
+      "gates"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "static",
+    "notes": "No tint. Preserve aspect ratio.",
+    "component": "StoneBoardComponent",
+    "pixel_size": [
+      133,
+      60
+    ]
+  },
+  {
+    "id": "gameplay_board_frame_t_junction",
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/t_junction.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "grid",
+      "arrows",
+      "gates"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "static",
+    "notes": "No tint. Preserve aspect ratio.",
+    "component": "StoneBoardComponent",
+    "pixel_size": [
+      151,
+      128
+    ]
+  },
+  {
+    "id": "gameplay_gates_compact_locked_blue",
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/locked/blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      161,
+      162
+    ]
+  },
+  {
+    "id": "gameplay_gates_compact_locked_green",
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/locked/green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      159,
+      161
+    ]
+  },
+  {
+    "id": "gameplay_gates_compact_locked_red",
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/locked/red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      163,
+      162
+    ]
+  },
+  {
+    "id": "gameplay_gates_compact_locked_yellow",
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/locked/yellow.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      157,
+      160
+    ]
+  },
+  {
+    "id": "gameplay_gates_compact_open_blue",
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/open/blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      161,
+      162
+    ]
+  },
+  {
+    "id": "gameplay_gates_compact_open_green",
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/open/green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      159,
+      161
+    ]
+  },
+  {
+    "id": "gameplay_gates_compact_open_red",
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/open/red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      163,
+      163
+    ]
+  },
+  {
+    "id": "gameplay_gates_compact_open_yellow",
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/open/yellow.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      157,
+      161
+    ]
+  },
+  {
+    "id": "gameplay_gates_large_locked_blue",
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/locked/blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      214,
+      232
+    ]
+  },
+  {
+    "id": "gameplay_gates_large_locked_green",
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/locked/green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      213,
+      232
+    ]
+  },
+  {
+    "id": "gameplay_gates_large_locked_red",
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/locked/red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      216,
+      231
+    ]
+  },
+  {
+    "id": "gameplay_gates_large_locked_yellow",
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/locked/yellow.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      208,
+      232
+    ]
+  },
+  {
+    "id": "gameplay_gates_large_open_blue",
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/open/blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      214,
+      233
+    ]
+  },
+  {
+    "id": "gameplay_gates_large_open_green",
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/open/green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      214,
+      232
+    ]
+  },
+  {
+    "id": "gameplay_gates_large_open_red",
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/open/red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      216,
+      232
+    ]
+  },
+  {
+    "id": "gameplay_gates_large_open_yellow",
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/open/yellow.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      210,
+      233
+    ]
+  },
+  {
+    "id": "gameplay_gates_small_locked_green",
+    "path": "assets/arrow_gate_rush/gameplay/gates/small/locked/green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      166,
+      167
+    ]
+  },
+  {
+    "id": "gameplay_gates_small_locked_red",
+    "path": "assets/arrow_gate_rush/gameplay/gates/small/locked/red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "gate lane",
+      "matching colored arrow"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "rotate_glow_receive_arrow",
+    "notes": "Gate center must align with row/column center.",
+    "component": "GateSlotComponent",
+    "pixel_size": [
+      165,
+      166
+    ]
+  },
+  {
+    "id": "gameplay_keys_blue",
+    "path": "assets/arrow_gate_rush/gameplay/keys/blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "same-color locked gate"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "collect_and_unlock",
+    "notes": "Unlocks same-color gate.",
+    "component": "KeyCollectibleComponent",
+    "pixel_size": [
+      78,
+      142
+    ]
+  },
+  {
+    "id": "gameplay_keys_green",
+    "path": "assets/arrow_gate_rush/gameplay/keys/green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "same-color locked gate"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "collect_and_unlock",
+    "notes": "Unlocks same-color gate.",
+    "component": "KeyCollectibleComponent",
+    "pixel_size": [
+      78,
+      140
+    ]
+  },
+  {
+    "id": "gameplay_keys_red",
+    "path": "assets/arrow_gate_rush/gameplay/keys/red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "same-color locked gate"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "collect_and_unlock",
+    "notes": "Unlocks same-color gate.",
+    "component": "KeyCollectibleComponent",
+    "pixel_size": [
+      78,
+      142
+    ]
+  },
+  {
+    "id": "gameplay_keys_yellow",
+    "path": "assets/arrow_gate_rush/gameplay/keys/yellow.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "same-color locked gate"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "collect_and_unlock",
+    "notes": "Unlocks same-color gate.",
+    "component": "KeyCollectibleComponent",
+    "pixel_size": [
+      78,
+      141
+    ]
+  },
+  {
+    "id": "gameplay_obstacles_chain_locked_compact",
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/chain_locked_compact.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "blocks_path",
+    "notes": "Occupies one cell unless level data says otherwise.",
+    "component": "ObstacleComponent",
+    "pixel_size": [
+      148,
+      156
+    ]
+  },
+  {
+    "id": "gameplay_obstacles_chain_locked_large",
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/chain_locked_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "blocks_path",
+    "notes": "Occupies one cell unless level data says otherwise.",
+    "component": "ObstacleComponent",
+    "pixel_size": [
+      218,
+      230
+    ]
+  },
+  {
+    "id": "gameplay_obstacles_ice_compact",
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/ice_compact.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "blocks_path",
+    "notes": "Occupies one cell unless level data says otherwise.",
+    "component": "ObstacleComponent",
+    "pixel_size": [
+      149,
+      155
+    ]
+  },
+  {
+    "id": "gameplay_obstacles_ice_large",
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/ice_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "blocks_path",
+    "notes": "Occupies one cell unless level data says otherwise.",
+    "component": "ObstacleComponent",
+    "pixel_size": [
+      213,
+      230
+    ]
+  },
+  {
+    "id": "gameplay_obstacles_keyhole_large",
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/keyhole_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "blocks_path",
+    "notes": "Occupies one cell unless level data says otherwise.",
+    "component": "ObstacleComponent",
+    "pixel_size": [
+      182,
+      229
+    ]
+  },
+  {
+    "id": "gameplay_obstacles_stone_compact",
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/stone_compact.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "blocks_path",
+    "notes": "Occupies one cell unless level data says otherwise.",
+    "component": "ObstacleComponent",
+    "pixel_size": [
+      150,
+      159
+    ]
+  },
+  {
+    "id": "gameplay_obstacles_stone_large",
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/stone_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "board cell"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "blocks_path",
+    "notes": "Occupies one cell unless level data says otherwise.",
+    "component": "ObstacleComponent",
+    "pixel_size": [
+      214,
+      231
+    ]
+  },
+  {
+    "id": "gameplay_portals_compact_blue",
+    "path": "assets/arrow_gate_rush/gameplay/portals/compact/blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "paired portal"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "teleport",
+    "notes": "Use paired portals from level data.",
+    "component": "PortalComponent",
+    "pixel_size": [
+      166,
+      173
+    ]
+  },
+  {
+    "id": "gameplay_portals_compact_purple",
+    "path": "assets/arrow_gate_rush/gameplay/portals/compact/purple.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "paired portal"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "teleport",
+    "notes": "Use paired portals from level data.",
+    "component": "PortalComponent",
+    "pixel_size": [
+      167,
+      173
+    ]
+  },
+  {
+    "id": "gameplay_portals_large_blue",
+    "path": "assets/arrow_gate_rush/gameplay/portals/large/blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "paired portal"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "teleport",
+    "notes": "Use paired portals from level data.",
+    "component": "PortalComponent",
+    "pixel_size": [
+      227,
+      245
+    ]
+  },
+  {
+    "id": "gameplay_portals_large_purple",
+    "path": "assets/arrow_gate_rush/gameplay/portals/large/purple.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "paired portal"
+    ],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "teleport",
+    "notes": "Use paired portals from level data.",
+    "component": "PortalComponent",
+    "pixel_size": [
+      229,
+      246
+    ]
+  },
+  {
+    "id": "ui_badges_daily_challenge",
+    "path": "assets/arrow_gate_rush/ui/badges/daily_challenge.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu",
+      "daily_challenge",
+      "leaderboard"
+    ],
+    "behavior": "static",
+    "notes": "Fixed size navigation badge.",
+    "component": "ModeBadge",
+    "pixel_size": [
+      250,
+      216
+    ]
+  },
+  {
+    "id": "ui_badges_leaderboard",
+    "path": "assets/arrow_gate_rush/ui/badges/leaderboard.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu",
+      "daily_challenge",
+      "leaderboard"
+    ],
+    "behavior": "static",
+    "notes": "Fixed size navigation badge.",
+    "component": "ModeBadge",
+    "pixel_size": [
+      239,
+      222
+    ]
+  },
+  {
+    "id": "ui_buttons_common_pill_blue",
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "dialogs",
+      "shop",
+      "settings"
+    ],
+    "behavior": "button_skin",
+    "notes": "Use centerSlice only if stretching is necessary.",
+    "component": "GlossyGameButton",
+    "pixel_size": [
+      183,
+      75
+    ]
+  },
+  {
+    "id": "ui_buttons_common_pill_green",
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "dialogs",
+      "shop",
+      "settings"
+    ],
+    "behavior": "button_skin",
+    "notes": "Use centerSlice only if stretching is necessary.",
+    "component": "GlossyGameButton",
+    "pixel_size": [
+      183,
+      75
+    ]
+  },
+  {
+    "id": "ui_buttons_common_pill_purple",
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_purple.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "dialogs",
+      "shop",
+      "settings"
+    ],
+    "behavior": "button_skin",
+    "notes": "Use centerSlice only if stretching is necessary.",
+    "component": "GlossyGameButton",
+    "pixel_size": [
+      183,
+      74
+    ]
+  },
+  {
+    "id": "ui_buttons_common_pill_red",
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "dialogs",
+      "shop",
+      "settings"
+    ],
+    "behavior": "button_skin",
+    "notes": "Use centerSlice only if stretching is necessary.",
+    "component": "GlossyGameButton",
+    "pixel_size": [
+      183,
+      73
+    ]
+  },
+  {
+    "id": "ui_buttons_common_pill_yellow",
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_yellow.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "dialogs",
+      "shop",
+      "settings"
+    ],
+    "behavior": "button_skin",
+    "notes": "Use centerSlice only if stretching is necessary.",
+    "component": "GlossyGameButton",
+    "pixel_size": [
+      183,
+      74
+    ]
+  },
+  {
+    "id": "ui_buttons_gameplay_hint_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/hint_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "button_state",
+    "notes": "Bottom row: undo left, hint center, restart right.",
+    "component": "BottomActionButton",
+    "pixel_size": [
+      190,
+      206
+    ]
+  },
+  {
+    "id": "ui_buttons_gameplay_hint_pressed",
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/hint_pressed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "button_state",
+    "notes": "Bottom row: undo left, hint center, restart right.",
+    "component": "BottomActionButton",
+    "pixel_size": [
+      189,
+      202
+    ]
+  },
+  {
+    "id": "ui_buttons_gameplay_restart_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/restart_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "button_state",
+    "notes": "Bottom row: undo left, hint center, restart right.",
+    "component": "BottomActionButton",
+    "pixel_size": [
+      187,
+      205
+    ]
+  },
+  {
+    "id": "ui_buttons_gameplay_restart_pressed",
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/restart_pressed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "button_state",
+    "notes": "Bottom row: undo left, hint center, restart right.",
+    "component": "BottomActionButton",
+    "pixel_size": [
+      187,
+      201
+    ]
+  },
+  {
+    "id": "ui_buttons_gameplay_settings_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/settings_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "button_state",
+    "notes": "Bottom row: undo left, hint center, restart right.",
+    "component": "BottomActionButton",
+    "pixel_size": [
+      139,
+      148
+    ]
+  },
+  {
+    "id": "ui_buttons_gameplay_undo_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/undo_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "button_state",
+    "notes": "Bottom row: undo left, hint center, restart right.",
+    "component": "BottomActionButton",
+    "pixel_size": [
+      190,
+      210
+    ]
+  },
+  {
+    "id": "ui_buttons_gameplay_undo_pressed",
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/undo_pressed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay"
+    ],
+    "behavior": "button_state",
+    "notes": "Bottom row: undo left, hint center, restart right.",
+    "component": "BottomActionButton",
+    "pixel_size": [
+      190,
+      202
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_daily_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/daily_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      227,
+      177
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_daily_pressed",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/daily_pressed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      228,
+      178
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_levels_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/levels_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      244,
+      177
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_levels_pressed",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/levels_pressed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      245,
+      178
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_play_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/play_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      273,
+      177
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_play_pressed",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/play_pressed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      273,
+      178
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_settings_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/settings_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      163,
+      163
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_settings_pressed",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/settings_pressed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      163,
+      166
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_shop_normal",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/shop_normal.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      219,
+      177
+    ]
+  },
+  {
+    "id": "ui_buttons_main_menu_shop_pressed",
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/shop_pressed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "main_menu"
+    ],
+    "behavior": "button_state",
+    "notes": "Normal and pressed files are a state pair.",
+    "component": "MainMenuButton",
+    "pixel_size": [
+      219,
+      178
+    ]
+  },
+  {
+    "id": "ui_cards_coin_offer",
+    "path": "assets/arrow_gate_rush/ui/cards/coin_offer.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "level_select",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Fixed aspect ratio; no stretching.",
+    "component": "GameCard",
+    "pixel_size": [
+      226,
+      329
+    ]
+  },
+  {
+    "id": "ui_cards_gem_offer",
+    "path": "assets/arrow_gate_rush/ui/cards/gem_offer.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "level_select",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Fixed aspect ratio; no stretching.",
+    "component": "GameCard",
+    "pixel_size": [
+      227,
+      329
+    ]
+  },
+  {
+    "id": "ui_cards_level_locked",
+    "path": "assets/arrow_gate_rush/ui/cards/level_locked.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "level_select",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Fixed aspect ratio; no stretching.",
+    "component": "GameCard",
+    "pixel_size": [
+      177,
+      257
+    ]
+  },
+  {
+    "id": "ui_cards_level_unlocked_three_stars",
+    "path": "assets/arrow_gate_rush/ui/cards/level_unlocked_three_stars.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "level_select",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Fixed aspect ratio; no stretching.",
+    "component": "GameCard",
+    "pixel_size": [
+      181,
+      274
+    ]
+  },
+  {
+    "id": "ui_cards_level_unlocked_two_stars",
+    "path": "assets/arrow_gate_rush/ui/cards/level_unlocked_two_stars.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "level_select",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Fixed aspect ratio; no stretching.",
+    "component": "GameCard",
+    "pixel_size": [
+      178,
+      272
+    ]
+  },
+  {
+    "id": "ui_cards_shop_offer",
+    "path": "assets/arrow_gate_rush/ui/cards/shop_offer.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "level_select",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Fixed aspect ratio; no stretching.",
+    "component": "GameCard",
+    "pixel_size": [
+      282,
+      320
+    ]
+  },
+  {
+    "id": "ui_dialogs_ok_green",
+    "path": "assets/arrow_gate_rush/ui/dialogs/ok_green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      243,
+      185
+    ]
+  },
+  {
+    "id": "ui_dialogs_ok_red",
+    "path": "assets/arrow_gate_rush/ui/dialogs/ok_red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      212,
+      186
+    ]
+  },
+  {
+    "id": "ui_dialogs_pause_panel",
+    "path": "assets/arrow_gate_rush/ui/dialogs/pause_panel.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      324,
+      260
+    ]
+  },
+  {
+    "id": "ui_dialogs_yes_no",
+    "path": "assets/arrow_gate_rush/ui/dialogs/yes_no.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      360,
+      184
+    ]
+  },
+  {
+    "id": "ui_frames_ring_red_blue",
+    "path": "assets/arrow_gate_rush/ui/frames/ring_red_blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": false,
+    "use_with": [],
+    "screen": [],
+    "behavior": "static",
+    "notes": "Use only when explicitly mapped.",
+    "component": "OptionalAsset",
+    "pixel_size": [
+      177,
+      196
+    ]
+  },
+  {
+    "id": "ui_frames_slot_green_yellow",
+    "path": "assets/arrow_gate_rush/ui/frames/slot_green_yellow.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": false,
+    "use_with": [],
+    "screen": [],
+    "behavior": "static",
+    "notes": "Use only when explicitly mapped.",
+    "component": "OptionalAsset",
+    "pixel_size": [
+      184,
+      134
+    ]
+  },
+  {
+    "id": "ui_frames_slot_red_blue",
+    "path": "assets/arrow_gate_rush/ui/frames/slot_red_blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": false,
+    "use_with": [],
+    "screen": [],
+    "behavior": "static",
+    "notes": "Use only when explicitly mapped.",
+    "component": "OptionalAsset",
+    "pixel_size": [
+      184,
+      135
+    ]
+  },
+  {
+    "id": "ui_hud_coin_counter",
+    "path": "assets/arrow_gate_rush/ui/hud/coin_counter.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      321,
+      126
+    ]
+  },
+  {
+    "id": "ui_hud_daily_progress_panel",
+    "path": "assets/arrow_gate_rush/ui/hud/daily_progress_panel.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      550,
+      177
+    ]
+  },
+  {
+    "id": "ui_hud_game_over_banner",
+    "path": "assets/arrow_gate_rush/ui/hud/game_over_banner.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      547,
+      210
+    ]
+  },
+  {
+    "id": "ui_hud_key_goal_progress",
+    "path": "assets/arrow_gate_rush/ui/hud/key_goal_progress.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      423,
+      203
+    ]
+  },
+  {
+    "id": "ui_hud_level_badge",
+    "path": "assets/arrow_gate_rush/ui/hud/level_badge.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      225,
+      196
+    ]
+  },
+  {
+    "id": "ui_hud_level_complete_banner",
+    "path": "assets/arrow_gate_rush/ui/hud/level_complete_banner.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      534,
+      221
+    ]
+  },
+  {
+    "id": "ui_hud_ribbon_crown_red",
+    "path": "assets/arrow_gate_rush/ui/hud/ribbon_crown_red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      511,
+      207
+    ]
+  },
+  {
+    "id": "ui_hud_ribbon_plain_red",
+    "path": "assets/arrow_gate_rush/ui/hud/ribbon_plain_red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      529,
+      95
+    ]
+  },
+  {
+    "id": "ui_hud_score_panel",
+    "path": "assets/arrow_gate_rush/ui/hud/score_panel.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      303,
+      196
+    ]
+  },
+  {
+    "id": "ui_hud_star_slots",
+    "path": "assets/arrow_gate_rush/ui/hud/star_slots.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "dynamic Flutter Text"
+    ],
+    "screen": [
+      "gameplay",
+      "results"
+    ],
+    "behavior": "static",
+    "notes": "Overlay changing numbers/text; do not edit PNG text.",
+    "component": "GameplayHud",
+    "pixel_size": [
+      572,
+      190
+    ]
+  },
+  {
+    "id": "ui_icons_boosters_multiplier_x3",
+    "path": "assets/arrow_gate_rush/ui/icons/boosters/multiplier_x3.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      130,
+      141
+    ]
+  },
+  {
+    "id": "ui_icons_gems_blue",
+    "path": "assets/arrow_gate_rush/ui/icons/gems/blue.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      90,
+      98
+    ]
+  },
+  {
+    "id": "ui_icons_gems_green",
+    "path": "assets/arrow_gate_rush/ui/icons/gems/green.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      88,
+      97
+    ]
+  },
+  {
+    "id": "ui_icons_gems_red",
+    "path": "assets/arrow_gate_rush/ui/icons/gems/red.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      90,
+      100
+    ]
+  },
+  {
+    "id": "ui_icons_gems_yellow",
+    "path": "assets/arrow_gate_rush/ui/icons/gems/yellow.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      90,
+      98
+    ]
+  },
+  {
+    "id": "ui_icons_navigation_daily_calendar",
+    "path": "assets/arrow_gate_rush/ui/icons/navigation/daily_calendar.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      132,
+      155
+    ]
+  },
+  {
+    "id": "ui_icons_rewards_chest_closed",
+    "path": "assets/arrow_gate_rush/ui/icons/rewards/chest_closed.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      239,
+      211
+    ]
+  },
+  {
+    "id": "ui_icons_rewards_chest_open",
+    "path": "assets/arrow_gate_rush/ui/icons/rewards/chest_open.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      252,
+      247
+    ]
+  },
+  {
+    "id": "ui_icons_rewards_play_ticket",
+    "path": "assets/arrow_gate_rush/ui/icons/rewards/play_ticket.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "shop",
+      "rewards",
+      "settings"
+    ],
+    "behavior": "static",
+    "notes": "No Material icon replacement.",
+    "component": "GameIcon",
+    "pixel_size": [
+      167,
+      120
+    ]
+  },
+  {
+    "id": "ui_panels_long_beige_blue_gems",
+    "path": "assets/arrow_gate_rush/ui/panels/long_beige_blue_gems.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      238,
+      85
+    ]
+  },
+  {
+    "id": "ui_panels_long_beige_corner_gems",
+    "path": "assets/arrow_gate_rush/ui/panels/long_beige_corner_gems.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      601,
+      149
+    ]
+  },
+  {
+    "id": "ui_panels_long_beige_red_blue_gems",
+    "path": "assets/arrow_gate_rush/ui/panels/long_beige_red_blue_gems.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      488,
+      108
+    ]
+  },
+  {
+    "id": "ui_panels_settings_row",
+    "path": "assets/arrow_gate_rush/ui/panels/settings_row.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      528,
+      131
+    ]
+  },
+  {
+    "id": "ui_panels_short_beige_green_gem",
+    "path": "assets/arrow_gate_rush/ui/panels/short_beige_green_gem.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      364,
+      136
+    ]
+  },
+  {
+    "id": "ui_panels_square_stone_large",
+    "path": "assets/arrow_gate_rush/ui/panels/square_stone_large.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      602,
+      605
+    ]
+  },
+  {
+    "id": "ui_panels_wide_stone_header",
+    "path": "assets/arrow_gate_rush/ui/panels/wide_stone_header.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [
+      "buttons",
+      "localized text"
+    ],
+    "screen": [
+      "pause",
+      "results",
+      "settings",
+      "shop"
+    ],
+    "behavior": "static",
+    "notes": "Keep content inside safe inner margin.",
+    "component": "StonePanel",
+    "pixel_size": [
+      528,
+      230
+    ]
+  },
+  {
+    "id": "ui_progress_blue_frame",
+    "path": "assets/arrow_gate_rush/ui/progress/blue_frame.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "daily_challenge",
+      "loading"
+    ],
+    "behavior": "progress_frame",
+    "notes": "Clip fill inside inner track.",
+    "component": "ProgressBar",
+    "pixel_size": [
+      287,
+      76
+    ]
+  },
+  {
+    "id": "ui_progress_dark_frame",
+    "path": "assets/arrow_gate_rush/ui/progress/dark_frame.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "daily_challenge",
+      "loading"
+    ],
+    "behavior": "progress_frame",
+    "notes": "Clip fill inside inner track.",
+    "component": "ProgressBar",
+    "pixel_size": [
+      533,
+      66
+    ]
+  },
+  {
+    "id": "ui_progress_green_frame",
+    "path": "assets/arrow_gate_rush/ui/progress/green_frame.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "daily_challenge",
+      "loading"
+    ],
+    "behavior": "progress_frame",
+    "notes": "Clip fill inside inner track.",
+    "component": "ProgressBar",
+    "pixel_size": [
+      287,
+      77
+    ]
+  },
+  {
+    "id": "ui_progress_green_segments",
+    "path": "assets/arrow_gate_rush/ui/progress/green_segments.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "daily_challenge",
+      "loading"
+    ],
+    "behavior": "progress_frame",
+    "notes": "Clip fill inside inner track.",
+    "component": "ProgressBar",
+    "pixel_size": [
+      533,
+      66
+    ]
+  },
+  {
+    "id": "ui_progress_red_frame",
+    "path": "assets/arrow_gate_rush/ui/progress/red_frame.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "daily_challenge",
+      "loading"
+    ],
+    "behavior": "progress_frame",
+    "notes": "Clip fill inside inner track.",
+    "component": "ProgressBar",
+    "pixel_size": [
+      287,
+      78
+    ]
+  },
+  {
+    "id": "ui_progress_yellow_frame",
+    "path": "assets/arrow_gate_rush/ui/progress/yellow_frame.png",
+    "runtime": true,
+    "transparent_png": true,
+    "fit": "contain",
+    "anchor": "center",
+    "recommended": true,
+    "use_with": [],
+    "screen": [
+      "gameplay",
+      "daily_challenge",
+      "loading"
+    ],
+    "behavior": "progress_frame",
+    "notes": "Clip fill inside inner track.",
+    "component": "ProgressBar",
+    "pixel_size": [
+      286,
+      76
+    ]
+  }
+]

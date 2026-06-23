@@ -1,0 +1,2234 @@
+[
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flora_cluster_blue_small.png",
+    "mode": "RGBA",
+    "size": [
+      131,
+      91
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5609,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flora_cluster_pink_small.png",
+    "mode": "RGBA",
+    "size": [
+      134,
+      81
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4699,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flora_cluster_white_small.png",
+    "mode": "RGBA",
+    "size": [
+      109,
+      88
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4566,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_cluster_peach_small.png",
+    "mode": "RGBA",
+    "size": [
+      99,
+      89
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4403,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_cluster_pink_purple.png",
+    "mode": "RGBA",
+    "size": [
+      90,
+      84
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3742,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_cluster_purple.png",
+    "mode": "RGBA",
+    "size": [
+      95,
+      77
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3864,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_cluster_salmon_small.png",
+    "mode": "RGBA",
+    "size": [
+      85,
+      86
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3450,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_pink_single.png",
+    "mode": "RGBA",
+    "size": [
+      132,
+      131
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7363,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/flower_yellow_single.png",
+    "mode": "RGBA",
+    "size": [
+      100,
+      97
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4481,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_blade_small.png",
+    "mode": "RGBA",
+    "size": [
+      87,
+      84
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4210,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_clump_large.png",
+    "mode": "RGBA",
+    "size": [
+      124,
+      85
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5583,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_patch_small.png",
+    "mode": "RGBA",
+    "size": [
+      84,
+      41
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 1853,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_patch_wide.png",
+    "mode": "RGBA",
+    "size": [
+      92,
+      49
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2522,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/grass_tiny.png",
+    "mode": "RGBA",
+    "size": [
+      71,
+      42
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 1524,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/leaf_cluster_large.png",
+    "mode": "RGBA",
+    "size": [
+      139,
+      91
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5944,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/leaf_cluster_small.png",
+    "mode": "RGBA",
+    "size": [
+      107,
+      78
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4553,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/pebble_small.png",
+    "mode": "RGBA",
+    "size": [
+      56,
+      43
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 1189,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_cluster_large.png",
+    "mode": "RGBA",
+    "size": [
+      113,
+      57
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3148,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_cluster_medium.png",
+    "mode": "RGBA",
+    "size": [
+      79,
+      52
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 1899,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_moss_cluster.png",
+    "mode": "RGBA",
+    "size": [
+      86,
+      50
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2081,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_single_medium.png",
+    "mode": "RGBA",
+    "size": [
+      76,
+      51
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 1625,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_single_small.png",
+    "mode": "RGBA",
+    "size": [
+      59,
+      49
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 1294,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/decor/rock_small_duo.png",
+    "mode": "RGBA",
+    "size": [
+      105,
+      97
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5235,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/ground/ground_corner_right.png",
+    "mode": "RGBA",
+    "size": [
+      140,
+      173
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 10446,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/ground/ground_platform_long.png",
+    "mode": "RGBA",
+    "size": [
+      725,
+      100
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 15606,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/ground/ground_platform_medium.png",
+    "mode": "RGBA",
+    "size": [
+      235,
+      95
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5757,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/ground/ground_platform_short.png",
+    "mode": "RGBA",
+    "size": [
+      85,
+      86
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2512,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/light_rays_soft.png",
+    "mode": "RGBA",
+    "size": [
+      172,
+      115
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8035,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_branch_soft.png",
+    "mode": "RGBA",
+    "size": [
+      138,
+      125
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 6638,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_corner_leaves_soft.png",
+    "mode": "RGBA",
+    "size": [
+      195,
+      155
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 13892,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_leaves_soft.png",
+    "mode": "RGBA",
+    "size": [
+      197,
+      135
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7650,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_soft_square.png",
+    "mode": "RGBA",
+    "size": [
+      157,
+      141
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8287,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/overlays/shadow_vignette_left.png",
+    "mode": "RGBA",
+    "size": [
+      167,
+      161
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 9405,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/bush_line_strip.png",
+    "mode": "RGBA",
+    "size": [
+      1208,
+      144
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 57955,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/foreground_garden_strip.png",
+    "mode": "RGBA",
+    "size": [
+      1213,
+      140
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 54780,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/mountain_horizon_strip.png",
+    "mode": "RGBA",
+    "size": [
+      625,
+      76
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 21528,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/sky_full.png",
+    "mode": "RGBA",
+    "size": [
+      1191,
+      258
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 109583,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/backgrounds/parallax/tree_line_strip.png",
+    "mode": "RGBA",
+    "size": [
+      1208,
+      141
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 72420,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/branding/app_icon/app_icon_alternate_transparent.png",
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1024
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 323905,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/branding/app_icon/app_icon_primary_transparent.png",
+    "mode": "RGBA",
+    "size": [
+      1024,
+      1024
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 311720,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/branding/logo/logo_stacked.png",
+    "mode": "RGBA",
+    "size": [
+      422,
+      384
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 34106,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/branding/logo/logo_wide.png",
+    "mode": "RGBA",
+    "size": [
+      1120,
+      544
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 162106,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/broken_arrow_red.png",
+    "mode": "RGBA",
+    "size": [
+      259,
+      225
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 37888,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/burst_star_gold.png",
+    "mode": "RGBA",
+    "size": [
+      190,
+      148
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 16265,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/burst_white_large.png",
+    "mode": "RGBA",
+    "size": [
+      297,
+      177
+    ],
+    "alpha_min": 0,
+    "alpha_max": 0,
+    "transparent_pixel_count": 52569,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/coin_burst_gold.png",
+    "mode": "RGBA",
+    "size": [
+      278,
+      238
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 28266,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/gate_burst_gold_large.png",
+    "mode": "RGBA",
+    "size": [
+      356,
+      300
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 70210,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/glow_blue_small.png",
+    "mode": "RGBA",
+    "size": [
+      126,
+      150
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7359,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/glow_green_small.png",
+    "mode": "RGBA",
+    "size": [
+      135,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8936,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/glow_red_small.png",
+    "mode": "RGBA",
+    "size": [
+      137,
+      148
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8451,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/glow_yellow_small.png",
+    "mode": "RGBA",
+    "size": [
+      174,
+      161
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12755,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/loading_dots_gold.png",
+    "mode": "RGBA",
+    "size": [
+      149,
+      138
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 13225,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/path_glow_horizontal_long.png",
+    "mode": "RGBA",
+    "size": [
+      313,
+      86
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 10350,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/path_glow_horizontal_short.png",
+    "mode": "RGBA",
+    "size": [
+      204,
+      86
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7278,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/path_glow_vertical_strip.png",
+    "mode": "RGBA",
+    "size": [
+      91,
+      232
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8965,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/smoke_puff_gray.png",
+    "mode": "RGBA",
+    "size": [
+      172,
+      174
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 11649,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/star_trail_gold.png",
+    "mode": "RGBA",
+    "size": [
+      257,
+      235
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 25187,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/target_ring_gold.png",
+    "mode": "RGBA",
+    "size": [
+      181,
+      180
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 14633,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/wrong_mark_red.png",
+    "mode": "RGBA",
+    "size": [
+      141,
+      106
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7400,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/effects/wrong_tap_cross_red.png",
+    "mode": "RGBA",
+    "size": [
+      276,
+      257
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 40535,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/blue/down.png",
+    "mode": "RGBA",
+    "size": [
+      154,
+      150
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2877,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/blue/left.png",
+    "mode": "RGBA",
+    "size": [
+      152,
+      150
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2783,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/blue/right.png",
+    "mode": "RGBA",
+    "size": [
+      153,
+      150
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2820,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/blue/up.png",
+    "mode": "RGBA",
+    "size": [
+      153,
+      150
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2787,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/green/down.png",
+    "mode": "RGBA",
+    "size": [
+      154,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2919,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/green/left.png",
+    "mode": "RGBA",
+    "size": [
+      152,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2956,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/green/right.png",
+    "mode": "RGBA",
+    "size": [
+      153,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2838,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/green/up.png",
+    "mode": "RGBA",
+    "size": [
+      153,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2950,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/red/down.png",
+    "mode": "RGBA",
+    "size": [
+      154,
+      152
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2872,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/red/left.png",
+    "mode": "RGBA",
+    "size": [
+      153,
+      152
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2849,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/red/right.png",
+    "mode": "RGBA",
+    "size": [
+      153,
+      152
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2914,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/red/up.png",
+    "mode": "RGBA",
+    "size": [
+      155,
+      152
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3146,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/yellow/down.png",
+    "mode": "RGBA",
+    "size": [
+      154,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2978,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/yellow/left.png",
+    "mode": "RGBA",
+    "size": [
+      152,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2805,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/yellow/right.png",
+    "mode": "RGBA",
+    "size": [
+      153,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2837,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/arrows/yellow/up.png",
+    "mode": "RGBA",
+    "size": [
+      153,
+      151
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2819,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/board/cells/empty_beige_compact.png",
+    "mode": "RGBA",
+    "size": [
+      154,
+      153
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2924,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/board/cells/empty_beige_large.png",
+    "mode": "RGBA",
+    "size": [
+      204,
+      228
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4911,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/corner_left.png",
+    "mode": "RGBA",
+    "size": [
+      122,
+      134
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7709,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/corner_right.png",
+    "mode": "RGBA",
+    "size": [
+      117,
+      129
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 6607,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/cross_junction.png",
+    "mode": "RGBA",
+    "size": [
+      144,
+      147
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 9017,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/horizontal_long.png",
+    "mode": "RGBA",
+    "size": [
+      238,
+      64
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2777,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/horizontal_short.png",
+    "mode": "RGBA",
+    "size": [
+      133,
+      60
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2092,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/board/frame/t_junction.png",
+    "mode": "RGBA",
+    "size": [
+      151,
+      128
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8154,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/locked/blue.png",
+    "mode": "RGBA",
+    "size": [
+      161,
+      162
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7300,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/locked/green.png",
+    "mode": "RGBA",
+    "size": [
+      159,
+      161
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7270,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/locked/red.png",
+    "mode": "RGBA",
+    "size": [
+      163,
+      162
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7414,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/locked/yellow.png",
+    "mode": "RGBA",
+    "size": [
+      157,
+      160
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7064,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/open/blue.png",
+    "mode": "RGBA",
+    "size": [
+      161,
+      162
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7307,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/open/green.png",
+    "mode": "RGBA",
+    "size": [
+      159,
+      161
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7102,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/open/red.png",
+    "mode": "RGBA",
+    "size": [
+      163,
+      163
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7417,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/compact/open/yellow.png",
+    "mode": "RGBA",
+    "size": [
+      157,
+      161
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 6885,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/locked/blue.png",
+    "mode": "RGBA",
+    "size": [
+      214,
+      232
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12757,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/locked/green.png",
+    "mode": "RGBA",
+    "size": [
+      213,
+      232
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12790,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/locked/red.png",
+    "mode": "RGBA",
+    "size": [
+      216,
+      231
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12540,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/locked/yellow.png",
+    "mode": "RGBA",
+    "size": [
+      208,
+      232
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12411,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/open/blue.png",
+    "mode": "RGBA",
+    "size": [
+      214,
+      233
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12971,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/open/green.png",
+    "mode": "RGBA",
+    "size": [
+      214,
+      232
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 13118,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/open/red.png",
+    "mode": "RGBA",
+    "size": [
+      216,
+      232
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 13063,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/large/open/yellow.png",
+    "mode": "RGBA",
+    "size": [
+      210,
+      233
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12734,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/small/locked/green.png",
+    "mode": "RGBA",
+    "size": [
+      166,
+      167
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7633,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/gates/small/locked/red.png",
+    "mode": "RGBA",
+    "size": [
+      165,
+      166
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7431,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/keys/blue.png",
+    "mode": "RGBA",
+    "size": [
+      78,
+      142
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5839,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/keys/green.png",
+    "mode": "RGBA",
+    "size": [
+      78,
+      140
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5653,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/keys/red.png",
+    "mode": "RGBA",
+    "size": [
+      78,
+      142
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5714,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/keys/yellow.png",
+    "mode": "RGBA",
+    "size": [
+      78,
+      141
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5577,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/chain_locked_compact.png",
+    "mode": "RGBA",
+    "size": [
+      148,
+      156
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3037,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/chain_locked_large.png",
+    "mode": "RGBA",
+    "size": [
+      218,
+      230
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5599,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/ice_compact.png",
+    "mode": "RGBA",
+    "size": [
+      149,
+      155
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2966,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/ice_large.png",
+    "mode": "RGBA",
+    "size": [
+      213,
+      230
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5228,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/keyhole_large.png",
+    "mode": "RGBA",
+    "size": [
+      182,
+      229
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5836,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/stone_compact.png",
+    "mode": "RGBA",
+    "size": [
+      150,
+      159
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3237,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/obstacles/stone_large.png",
+    "mode": "RGBA",
+    "size": [
+      214,
+      231
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5829,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/portals/compact/blue.png",
+    "mode": "RGBA",
+    "size": [
+      166,
+      173
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8396,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/portals/compact/purple.png",
+    "mode": "RGBA",
+    "size": [
+      167,
+      173
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8463,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/portals/large/blue.png",
+    "mode": "RGBA",
+    "size": [
+      227,
+      245
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 15654,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/gameplay/portals/large/purple.png",
+    "mode": "RGBA",
+    "size": [
+      229,
+      246
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 15743,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/badges/daily_challenge.png",
+    "mode": "RGBA",
+    "size": [
+      250,
+      216
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 18041,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/badges/leaderboard.png",
+    "mode": "RGBA",
+    "size": [
+      239,
+      222
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 18315,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_blue.png",
+    "mode": "RGBA",
+    "size": [
+      183,
+      75
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3330,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_green.png",
+    "mode": "RGBA",
+    "size": [
+      183,
+      75
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3042,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_purple.png",
+    "mode": "RGBA",
+    "size": [
+      183,
+      74
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2916,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_red.png",
+    "mode": "RGBA",
+    "size": [
+      183,
+      73
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2809,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/common/pill_yellow.png",
+    "mode": "RGBA",
+    "size": [
+      183,
+      74
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 2819,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/hint_normal.png",
+    "mode": "RGBA",
+    "size": [
+      190,
+      206
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12235,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/hint_pressed.png",
+    "mode": "RGBA",
+    "size": [
+      189,
+      202
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12258,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/restart_normal.png",
+    "mode": "RGBA",
+    "size": [
+      187,
+      205
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12154,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/restart_pressed.png",
+    "mode": "RGBA",
+    "size": [
+      187,
+      201
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 11316,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/settings_normal.png",
+    "mode": "RGBA",
+    "size": [
+      139,
+      148
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5887,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/undo_normal.png",
+    "mode": "RGBA",
+    "size": [
+      190,
+      210
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 12993,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/gameplay/undo_pressed.png",
+    "mode": "RGBA",
+    "size": [
+      190,
+      202
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 11525,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/daily_normal.png",
+    "mode": "RGBA",
+    "size": [
+      227,
+      177
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4282,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/daily_pressed.png",
+    "mode": "RGBA",
+    "size": [
+      228,
+      178
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4253,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/levels_normal.png",
+    "mode": "RGBA",
+    "size": [
+      244,
+      177
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4397,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/levels_pressed.png",
+    "mode": "RGBA",
+    "size": [
+      245,
+      178
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4311,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/play_normal.png",
+    "mode": "RGBA",
+    "size": [
+      273,
+      177
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5254,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/play_pressed.png",
+    "mode": "RGBA",
+    "size": [
+      273,
+      178
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4506,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/settings_normal.png",
+    "mode": "RGBA",
+    "size": [
+      163,
+      163
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4286,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/settings_pressed.png",
+    "mode": "RGBA",
+    "size": [
+      163,
+      166
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4141,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/shop_normal.png",
+    "mode": "RGBA",
+    "size": [
+      219,
+      177
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4294,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/buttons/main_menu/shop_pressed.png",
+    "mode": "RGBA",
+    "size": [
+      219,
+      178
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4083,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/cards/coin_offer.png",
+    "mode": "RGBA",
+    "size": [
+      226,
+      329
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 9801,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/cards/gem_offer.png",
+    "mode": "RGBA",
+    "size": [
+      227,
+      329
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 11191,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/cards/level_locked.png",
+    "mode": "RGBA",
+    "size": [
+      177,
+      257
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5910,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/cards/level_unlocked_three_stars.png",
+    "mode": "RGBA",
+    "size": [
+      181,
+      274
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8355,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/cards/level_unlocked_two_stars.png",
+    "mode": "RGBA",
+    "size": [
+      178,
+      272
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7419,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/cards/shop_offer.png",
+    "mode": "RGBA",
+    "size": [
+      282,
+      320
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8353,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/dialogs/ok_green.png",
+    "mode": "RGBA",
+    "size": [
+      243,
+      185
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4788,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/dialogs/ok_red.png",
+    "mode": "RGBA",
+    "size": [
+      212,
+      186
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4600,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/dialogs/pause_panel.png",
+    "mode": "RGBA",
+    "size": [
+      324,
+      260
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 6490,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/dialogs/yes_no.png",
+    "mode": "RGBA",
+    "size": [
+      360,
+      184
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5312,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/frames/ring_red_blue.png",
+    "mode": "RGBA",
+    "size": [
+      177,
+      196
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 21048,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/frames/slot_green_yellow.png",
+    "mode": "RGBA",
+    "size": [
+      184,
+      134
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4799,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/frames/slot_red_blue.png",
+    "mode": "RGBA",
+    "size": [
+      184,
+      135
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4898,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/coin_counter.png",
+    "mode": "RGBA",
+    "size": [
+      321,
+      126
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4878,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/daily_progress_panel.png",
+    "mode": "RGBA",
+    "size": [
+      550,
+      177
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 10358,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/game_over_banner.png",
+    "mode": "RGBA",
+    "size": [
+      547,
+      210
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 43120,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/key_goal_progress.png",
+    "mode": "RGBA",
+    "size": [
+      423,
+      203
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 6784,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/level_badge.png",
+    "mode": "RGBA",
+    "size": [
+      225,
+      196
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 6296,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/level_complete_banner.png",
+    "mode": "RGBA",
+    "size": [
+      534,
+      221
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 51388,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/ribbon_crown_red.png",
+    "mode": "RGBA",
+    "size": [
+      511,
+      207
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 49911,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/ribbon_plain_red.png",
+    "mode": "RGBA",
+    "size": [
+      529,
+      95
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 15166,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/score_panel.png",
+    "mode": "RGBA",
+    "size": [
+      303,
+      196
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 6437,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/hud/star_slots.png",
+    "mode": "RGBA",
+    "size": [
+      572,
+      190
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 31098,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/boosters/multiplier_x3.png",
+    "mode": "RGBA",
+    "size": [
+      130,
+      141
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 6764,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/gems/blue.png",
+    "mode": "RGBA",
+    "size": [
+      90,
+      98
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4644,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/gems/green.png",
+    "mode": "RGBA",
+    "size": [
+      88,
+      97
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4128,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/gems/red.png",
+    "mode": "RGBA",
+    "size": [
+      90,
+      100
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4392,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/gems/yellow.png",
+    "mode": "RGBA",
+    "size": [
+      90,
+      98
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4520,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/navigation/daily_calendar.png",
+    "mode": "RGBA",
+    "size": [
+      132,
+      155
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 3673,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/rewards/chest_closed.png",
+    "mode": "RGBA",
+    "size": [
+      239,
+      211
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8570,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/rewards/chest_open.png",
+    "mode": "RGBA",
+    "size": [
+      252,
+      247
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 14710,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/icons/rewards/play_ticket.png",
+    "mode": "RGBA",
+    "size": [
+      167,
+      120
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5764,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/panels/long_beige_blue_gems.png",
+    "mode": "RGBA",
+    "size": [
+      238,
+      85
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4477,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/panels/long_beige_corner_gems.png",
+    "mode": "RGBA",
+    "size": [
+      601,
+      149
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 10386,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/panels/long_beige_red_blue_gems.png",
+    "mode": "RGBA",
+    "size": [
+      488,
+      108
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 8914,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/panels/settings_row.png",
+    "mode": "RGBA",
+    "size": [
+      528,
+      131
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 7004,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/panels/short_beige_green_gem.png",
+    "mode": "RGBA",
+    "size": [
+      364,
+      136
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 13995,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/panels/square_stone_large.png",
+    "mode": "RGBA",
+    "size": [
+      602,
+      605
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 26977,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/panels/wide_stone_header.png",
+    "mode": "RGBA",
+    "size": [
+      528,
+      230
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 19770,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/progress/blue_frame.png",
+    "mode": "RGBA",
+    "size": [
+      287,
+      76
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4486,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/progress/dark_frame.png",
+    "mode": "RGBA",
+    "size": [
+      533,
+      66
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 10523,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/progress/green_frame.png",
+    "mode": "RGBA",
+    "size": [
+      287,
+      77
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4255,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/progress/green_segments.png",
+    "mode": "RGBA",
+    "size": [
+      533,
+      66
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 10285,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/progress/red_frame.png",
+    "mode": "RGBA",
+    "size": [
+      287,
+      78
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 5068,
+    "transparent_margin": true
+  },
+  {
+    "path": "assets/arrow_gate_rush/ui/progress/yellow_frame.png",
+    "mode": "RGBA",
+    "size": [
+      286,
+      76
+    ],
+    "alpha_min": 0,
+    "alpha_max": 255,
+    "transparent_pixel_count": 4182,
+    "transparent_margin": true
+  }
+]

@@ -1,0 +1,219 @@
+# Screen Asset Map
+
+Kesin machine-readable harita: `config/screen_asset_map.json`.
+
+## Splash
+```json
+{
+  "background_layers": [
+    "assets/arrow_gate_rush/backgrounds/parallax/sky_full.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/tree_line_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/foreground_garden_strip.png"
+  ],
+  "center": "assets/arrow_gate_rush/branding/logo/logo_wide.png",
+  "effects": [
+    "assets/arrow_gate_rush/effects/loading_dots_gold.png"
+  ],
+  "layout": "logo centered at 42% screen height; loading dots below"
+}
+```
+
+## Loading
+```json
+{
+  "background_layers": [
+    "assets/arrow_gate_rush/backgrounds/parallax/sky_full.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/mountain_horizon_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/tree_line_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/foreground_garden_strip.png"
+  ],
+  "center": "assets/arrow_gate_rush/branding/logo/logo_stacked.png",
+  "progress": [
+    "assets/arrow_gate_rush/ui/progress/dark_frame.png",
+    "assets/arrow_gate_rush/ui/progress/green_segments.png"
+  ],
+  "layout": "logo upper-middle; progress lower third"
+}
+```
+
+## Main Menu
+```json
+{
+  "background_layers": [
+    "assets/arrow_gate_rush/backgrounds/parallax/sky_full.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/mountain_horizon_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/tree_line_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/bush_line_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/foreground_garden_strip.png"
+  ],
+  "logo": "assets/arrow_gate_rush/branding/logo/logo_wide.png",
+  "buttons": {
+    "play": [
+      "assets/arrow_gate_rush/ui/buttons/main_menu/play_normal.png",
+      "assets/arrow_gate_rush/ui/buttons/main_menu/play_pressed.png"
+    ],
+    "levels": [
+      "assets/arrow_gate_rush/ui/buttons/main_menu/levels_normal.png",
+      "assets/arrow_gate_rush/ui/buttons/main_menu/levels_pressed.png"
+    ],
+    "daily": [
+      "assets/arrow_gate_rush/ui/buttons/main_menu/daily_normal.png",
+      "assets/arrow_gate_rush/ui/buttons/main_menu/daily_pressed.png"
+    ],
+    "shop": [
+      "assets/arrow_gate_rush/ui/buttons/main_menu/shop_normal.png",
+      "assets/arrow_gate_rush/ui/buttons/main_menu/shop_pressed.png"
+    ],
+    "settings": [
+      "assets/arrow_gate_rush/ui/buttons/main_menu/settings_normal.png",
+      "assets/arrow_gate_rush/ui/buttons/main_menu/settings_pressed.png"
+    ]
+  },
+  "layout": "logo top; vertical buttons center; settings top-right"
+}
+```
+
+## Gameplay
+```json
+{
+  "background_layers": [
+    "assets/arrow_gate_rush/backgrounds/parallax/sky_full.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/mountain_horizon_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/tree_line_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/bush_line_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/foreground_garden_strip.png"
+  ],
+  "hud": {
+    "top_left": "assets/arrow_gate_rush/ui/hud/level_badge.png",
+    "top_center": "assets/arrow_gate_rush/ui/hud/key_goal_progress.png",
+    "top_right": "assets/arrow_gate_rush/ui/hud/coin_counter.png",
+    "settings": "assets/arrow_gate_rush/ui/buttons/gameplay/settings_normal.png"
+  },
+  "board": {
+    "cell": "assets/arrow_gate_rush/gameplay/board/cells/empty_beige_large.png",
+    "arrows_root": "assets/arrow_gate_rush/gameplay/arrows/",
+    "gates_root": "assets/arrow_gate_rush/gameplay/gates/large/",
+    "obstacles_root": "assets/arrow_gate_rush/gameplay/obstacles/",
+    "keys_root": "assets/arrow_gate_rush/gameplay/keys/"
+  },
+  "bottom_buttons": {
+    "undo": [
+      "assets/arrow_gate_rush/ui/buttons/gameplay/undo_normal.png",
+      "assets/arrow_gate_rush/ui/buttons/gameplay/undo_pressed.png"
+    ],
+    "hint": [
+      "assets/arrow_gate_rush/ui/buttons/gameplay/hint_normal.png",
+      "assets/arrow_gate_rush/ui/buttons/gameplay/hint_pressed.png"
+    ],
+    "restart": [
+      "assets/arrow_gate_rush/ui/buttons/gameplay/restart_normal.png",
+      "assets/arrow_gate_rush/ui/buttons/gameplay/restart_pressed.png"
+    ]
+  },
+  "effects": {
+    "valid": [
+      "assets/arrow_gate_rush/effects/gate_burst_gold_large.png",
+      "assets/arrow_gate_rush/effects/target_ring_gold.png"
+    ],
+    "invalid": [
+      "assets/arrow_gate_rush/effects/wrong_tap_cross_red.png",
+      "assets/arrow_gate_rush/effects/broken_arrow_red.png"
+    ],
+    "reward": [
+      "assets/arrow_gate_rush/effects/coin_burst_gold.png",
+      "assets/arrow_gate_rush/effects/star_trail_gold.png"
+    ]
+  },
+  "layout": "HUD top; board center; gates exactly aligned; controls bottom"
+}
+```
+
+## Level Select
+```json
+{
+  "background_layers": [
+    "assets/arrow_gate_rush/backgrounds/parallax/sky_full.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/tree_line_strip.png",
+    "assets/arrow_gate_rush/backgrounds/parallax/foreground_garden_strip.png"
+  ],
+  "cards": [
+    "assets/arrow_gate_rush/ui/cards/level_unlocked_three_stars.png",
+    "assets/arrow_gate_rush/ui/cards/level_unlocked_two_stars.png",
+    "assets/arrow_gate_rush/ui/cards/level_locked.png"
+  ],
+  "panel": "assets/arrow_gate_rush/ui/panels/square_stone_large.png"
+}
+```
+
+## Pause
+```json
+{
+  "panel": "assets/arrow_gate_rush/ui/dialogs/pause_panel.png",
+  "buttons": [
+    "assets/arrow_gate_rush/ui/buttons/common/pill_green.png",
+    "assets/arrow_gate_rush/ui/buttons/common/pill_yellow.png",
+    "assets/arrow_gate_rush/ui/buttons/common/pill_red.png"
+  ]
+}
+```
+
+## Level Complete
+```json
+{
+  "banner": "assets/arrow_gate_rush/ui/hud/level_complete_banner.png",
+  "stars": "assets/arrow_gate_rush/effects/star_trail_gold.png",
+  "reward": "assets/arrow_gate_rush/effects/coin_burst_gold.png",
+  "buttons": [
+    "assets/arrow_gate_rush/ui/buttons/common/pill_green.png",
+    "assets/arrow_gate_rush/ui/buttons/common/pill_blue.png"
+  ]
+}
+```
+
+## Level Failed
+```json
+{
+  "banner": "assets/arrow_gate_rush/ui/hud/game_over_banner.png",
+  "effect": "assets/arrow_gate_rush/effects/broken_arrow_red.png",
+  "buttons": [
+    "assets/arrow_gate_rush/ui/buttons/common/pill_green.png",
+    "assets/arrow_gate_rush/ui/buttons/common/pill_blue.png",
+    "assets/arrow_gate_rush/ui/buttons/common/pill_red.png"
+  ]
+}
+```
+
+## Daily Challenge
+```json
+{
+  "badge": "assets/arrow_gate_rush/ui/badges/daily_challenge.png",
+  "calendar": "assets/arrow_gate_rush/ui/icons/navigation/daily_calendar.png",
+  "progress": "assets/arrow_gate_rush/ui/hud/daily_progress_panel.png"
+}
+```
+
+## Shop
+```json
+{
+  "cards": [
+    "assets/arrow_gate_rush/ui/cards/coin_offer.png",
+    "assets/arrow_gate_rush/ui/cards/gem_offer.png",
+    "assets/arrow_gate_rush/ui/cards/shop_offer.png"
+  ],
+  "icons": [
+    "assets/arrow_gate_rush/ui/icons/rewards/chest_closed.png",
+    "assets/arrow_gate_rush/ui/icons/rewards/chest_open.png"
+  ],
+  "panel": "assets/arrow_gate_rush/ui/panels/square_stone_large.png"
+}
+```
+
+## Settings
+```json
+{
+  "panel": "assets/arrow_gate_rush/ui/panels/square_stone_large.png",
+  "row": "assets/arrow_gate_rush/ui/panels/settings_row.png",
+  "close": "assets/arrow_gate_rush/ui/buttons/main_menu/settings_normal.png"
+}
+```
+
