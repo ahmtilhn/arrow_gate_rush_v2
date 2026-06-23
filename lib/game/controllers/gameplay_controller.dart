@@ -38,7 +38,11 @@ class GameplayController {
   bool get isComplete => state.phase == GamePhase.levelComplete;
   bool get isFailed => state.phase == GamePhase.levelFailed;
 
-  TapResult handleArrowTap(String arrowId, int timestampMs) {
+  TapResult handleArrowTap(
+    String arrowId,
+    int timestampMs, {
+    GateTimingSnapshot timing = const GateTimingSnapshot.stable(),
+  }) {
     if (!inputController.tryLock()) {
       final result = TapResult(
         TapResultType.invalidGamePhase,
@@ -51,7 +55,7 @@ class GameplayController {
     audio.play(GameplayAudioEvent.arrowTap);
     haptics.trigger(GameplayHapticEvent.arrowTap);
     final timingDecision = tapBufferSystem.evaluate(
-      timing: const GateTimingSnapshot.stable(),
+      timing: timing,
       tapTimestampMs: timestampMs,
     );
     final result = moveValidator.validate(
