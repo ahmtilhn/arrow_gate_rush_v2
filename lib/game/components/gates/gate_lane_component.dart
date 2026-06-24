@@ -1,4 +1,5 @@
 import 'package:flame/components.dart';
+import 'package:flame/effects.dart';
 
 import '../../../game_core/game_core.dart';
 import '../../layout/gameplay_layout.dart';
@@ -34,5 +35,43 @@ class GateLaneComponent extends PositionComponent {
         );
       }
     }
+  }
+
+  Future<void> animateTo(GateLane nextLane, Duration duration) async {
+    final mapper = CoreToFlameMapper(layout);
+    final currentById = <String, GateComponent>{
+      for (final component in children.whereType<GateComponent>())
+        component.gate.id: component,
+    };
+
+    for (var index = 0; index < nextLane.slots.length; index += 1) {
+      final gate = nextLane.slots[index];
+      if (gate == null) {
+        continue;
+      }
+      final target = mapper.gateSlotCenter(nextLane.edge, index);
+      final existing = currentById[gate.id];
+      if (existing == null) {
+        add(
+          GateComponent(
+            gate: gate,
+            edge: nextLane.edge,
+            slotIndex: index,
+            position: target,
+            cellSize: layout.cellSize * 0.92,
+          ),
+        );
+      } else {
+        existing.add(
+          MoveEffect.to(
+            target,
+            EffectController(duration: duration.inMilliseconds / 1000),
+          ),
+        );
+      }
+    }
+
+    lane = nextLane;
+    await Future<void>.delayed(duration);
   }
 }

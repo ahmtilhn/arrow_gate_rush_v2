@@ -18,8 +18,7 @@ class GameplayController {
     this.haptics = const NoopGameplayHapticService(),
   }) : state = initialState,
        tapBufferSystem = tapBufferSystem ?? TapBufferSystem(config.timing),
-       gateController =
-           gateController ?? GateAnimationController(config: config),
+       gateController = gateController ?? GateAnimationController(config: config),
        inputController = inputController ?? InputController();
 
   GameState state;
@@ -33,13 +32,19 @@ class GameplayController {
   final GameplayHapticService haptics;
   TapResult? lastResult;
   bool queuedGateTick = false;
+  TapAttempt? _pendingAttempt;
 
   bool get inputLocked => inputController.isLocked;
   bool get isComplete => state.phase == GamePhase.levelComplete;
   bool get isFailed => state.phase == GamePhase.levelFailed;
+  bool get hasBufferedAttempt => _pendingAttempt != null;
 
-  TapResult handleArrowTap(String arrowId, int timestampMs) {
-    if (!inputController.tryLock()) {
+  TapResult handleArrowTap(
+    String arrowId,
+    int timestampMs, {
+    GateTimingSnapshot timing = const GateTimingSnapshot.stable(),
+  }) {
+    if (_pendingAttempt != null || !inputController.tryLock()) {
       final result = TapResult(
         TapResultType.invalidGamePhase,
         TapDebugInfo(arrowId: arrowId, tapTimestampMs: timestampMs),
@@ -50,14 +55,51 @@ class GameplayController {
 
     audio.play(GameplayAudioEvent.arrowTap);
     haptics.trigger(GameplayHapticEvent.arrowTap);
-    final timingDecision = tapBufferSystem.evaluate(
-      timing: const GateTimingSnapshot.stable(),
-      tapTimestampMs: timestampMs,
-    );
+    final attempt = TapAttempt(arrowId: arrowId, timestampMs: timestampMs);
     final result = moveValidator.validate(
       state: state,
-      attempt: TapAttempt(arrowId: arrowId, timestampMs: timestampMs),
-      timingDecision: timingDecision,
+      attempt: attempt,
+      timingDecision: tapBufferSystem.evaluate(
+        timing: timing,
+        tapTimestampMs: timestampMs,
+      ),
+    );
+    lastResult = result;
+    if (result.type == TapResultType.validExit) {
+      state = reducer.applyTapResult(state, result);
+    } else if (result.type == TapResultType.tapBuffered) {
+      _pendingAttempt = attempt;
+      inputController.unlock();
+    } else {
+      _applyInvalidResult(result);
+    }
+    return result;
+  }
+
+  TapResult? resolveBufferedTap(GateTimingSnapshot timing) {
+    final attempt = _pendingAttempt;
+    if (attempt == null) {
+      return null;
+    }
+    _pendingAttempt = null;
+    if (!inputController.tryLock()) {
+      final result = TapResult(
+        TapResultType.invalidGamePhase,
+        TapDebugInfo(
+          arrowId: attempt.arrowId,
+          tapTimestampMs: attempt.timestampMs,
+        ),
+      );
+      lastResult = result;
+      return result;
+    }
+    final result = moveValidator.validate(
+      state: state,
+      attempt: attempt,
+      timingDecision: tapBufferSystem.evaluate(
+        timing: timing,
+        tapTimestampMs: attempt.timestampMs,
+      ),
     );
     lastResult = result;
     if (result.type == TapResultType.validExit) {
@@ -135,6 +177,7 @@ class GameplayController {
     state = newState;
     queuedGateTick = false;
     lastResult = null;
+    _pendingAttempt = null;
     inputController.unlock();
   }
 }

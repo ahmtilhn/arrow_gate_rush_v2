@@ -1,4 +1,5 @@
 import 'package:flame/game.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 import 'game/arrow_gate_game.dart';
@@ -6,6 +7,7 @@ import 'game/bootstrap/game_bootstrap.dart';
 import 'game/overlays/pause_overlay.dart';
 import 'game/overlays/prototype_result_overlay.dart';
 import 'game/prototype_strings.dart';
+import 'game/qa/phase2_qa_mode.dart';
 import 'generated/arrow_gate_assets.dart';
 
 void main() {
@@ -32,14 +34,21 @@ class GameHost extends StatefulWidget {
 }
 
 class _GameHostState extends State<GameHost> with WidgetsBindingObserver {
+  static const _reviewMode = String.fromEnvironment('VISUAL_REVIEW_MODE');
+
+  late final Phase2QaMode _selectedMode;
   Future<ArrowGateGame>? _gameFuture;
-  bool _debugLevel = false;
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
-    _gameFuture = const GameBootstrap().createGame(debugLevel: _debugLevel);
+    _selectedMode = kDebugMode
+        ? Phase2QaModeX.parse(_reviewMode)
+        : Phase2QaMode.normal;
+    if (_selectedMode != Phase2QaMode.loading) {
+      _gameFuture = const GameBootstrap().createGame(mode: _selectedMode);
+    }
   }
 
   @override
@@ -61,16 +70,12 @@ class _GameHostState extends State<GameHost> with WidgetsBindingObserver {
     });
   }
 
-  void _toggleDebug() {
-    setState(() {
-      _debugLevel = !_debugLevel;
-      _gameFuture = const GameBootstrap().createGame(debugLevel: _debugLevel);
-    });
-  }
-
   @override
   Widget build(BuildContext context) {
     const strings = PrototypeStrings();
+    if (_selectedMode == Phase2QaMode.loading) {
+      return const _LoadingScreen(strings: strings);
+    }
     return FutureBuilder<ArrowGateGame>(
       future: _gameFuture,
       builder: (context, snapshot) {
@@ -108,11 +113,6 @@ class _GameHostState extends State<GameHost> with WidgetsBindingObserver {
                         asset: ArrowGateAssets.uiButtonsCommonPillGreen,
                         label: strings.restart,
                         onTap: game.restartPrototype,
-                      ),
-                      _AssetControl(
-                        asset: ArrowGateAssets.uiButtonsCommonPillRed,
-                        label: strings.debugToggle,
-                        onTap: _toggleDebug,
                       ),
                     ],
                   ),

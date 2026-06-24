@@ -1,34 +1,49 @@
 # Phase 2 Visual QA Report
 
-Review date: 2026-06-23
+## Generated asset previews
 
-## Screenshot Paths
+The PNG files previously stored directly under `docs/visual_qa/phase2/` were produced by copying individual supplied assets during a test. They are useful as asset fixtures only. They are **not screenshots from a running Flutter or Flame application** and are not authoritative visual evidence.
 
-- `docs/visual_qa/phase2/prototype_gameplay.png`
-- `docs/visual_qa/phase2/valid_alignment.png`
-- `docs/visual_qa/phase2/blocked_path.png`
-- `docs/visual_qa/phase2/wrong_color_gate.png`
-- `docs/visual_qa/phase2/locked_gate.png`
-- `docs/visual_qa/phase2/pause_overlay.png`
-- `docs/visual_qa/phase2/level_complete.png`
-- `docs/visual_qa/phase2/level_failed.png`
-- `docs/visual_qa/phase2/visual_debug_level.png`
+These historical files must be treated as the contents of the logical category:
 
-## Scores
+`docs/visual_qa/phase2/generated_asset_previews/`
 
-| Category | Score | Notes |
-|---|---:|---|
-| garden background | 4 | Supplied garden/parallax art is wired into the Flame background. |
-| stone board | 4 | Prototype uses supplied beige board cells; full stone frame refinement remains later polish. |
-| beige cells | 5 | Supplied compact beige cells are used. |
-| glossy arrows | 5 | Direction-specific supplied arrows are resolved for all color/direction pairs. |
-| gate quality | 5 | Supplied compact open/locked gates are used. |
-| alignment readability | 4 | Gate and cell centers share one layout mapper; effect polish can improve. |
-| HUD readability | 4 | Supplied HUD badges and gem lives are used; final copy/localization remains later. |
-| button consistency | 4 | Supplied pill skins are used for prototype controls. |
-| absence of default Material styling | 3 | Prototype overlays still use simple Flutter panels/buttons; this is documented as a temporary Phase 2 compromise. |
-| responsive layout | 4 | Board calculator is tested on small phones, tall phones, iPhone-like, and tablet sizes. |
+They remain in their original paths to avoid rewriting binary history, but no report or test may describe them as runtime captures.
 
-## Required Improvement
+## Live Android runtime captures
 
-The category below 4 is default Material styling in overlays. It is accepted as a Phase 2 prototype compromise only because full production UI/localization is explicitly not part of Phase 2. It must be replaced by supplied panel/button skins in the later UI phase.
+Authoritative evidence is produced by:
+
+`tool/capture_phase2_android_screenshots.ps1`
+
+Expected output:
+
+`docs/visual_qa/phase2/runtime_android/`
+
+Required files are `01_loading.png` through `13_visual_debug_level.png`, plus `capture_manifest.json`. Each PNG must be captured from an Android emulator or physical device framebuffer with `adb shell screencap -p`.
+
+## Runtime scoring
+
+No runtime score is assigned until the live Android artifact is available and inspected. The following categories must each be scored from 0 to 5:
+
+- garden background composition
+- stone board quality
+- beige cell clarity
+- glossy arrow quality
+- gate quality
+- gate alignment readability
+- HUD readability
+- safe-area layout
+- visual feedback clarity
+- consistency with supplied style
+- absence of default Material appearance
+- absence of checkerboard or baked backgrounds
+- absence of clipping
+- absence of stretched sprites
+- touch-target readability
+
+Any category below 4 requires a correction or a documented production-art limitation.
+
+## Current status
+
+**Phase 2 implemented but not fully accepted.** Live Android frames and manual inspection are still required. Generated asset previews must never be used to satisfy this requirement.

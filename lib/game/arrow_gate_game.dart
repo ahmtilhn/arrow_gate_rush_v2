@@ -1,3 +1,6 @@
+import 'dart:async';
+
+import 'package:flame/components.dart';
 import 'package:flame/game.dart';
 
 import '../game_core/game_core.dart';
@@ -8,6 +11,7 @@ import 'components/background/garden_background_component.dart';
 import 'components/board/board_grid_component.dart';
 import 'components/debug/visual_debug_overlay_component.dart';
 import 'components/effects/blocked_path_effect_component.dart';
+import 'components/effects/gate_alignment_glow_component.dart';
 import 'components/effects/gate_burst_component.dart';
 import 'components/effects/wrong_tap_effect_component.dart';
 import 'components/gates/gate_lane_component.dart';
@@ -17,6 +21,7 @@ import 'controllers/gameplay_controller.dart';
 import 'layout/board_layout_calculator.dart';
 import 'layout/gameplay_layout.dart';
 import 'mapping/core_to_flame_mapper.dart';
+import 'qa/phase2_qa_mode.dart';
 
 class ArrowGateGame extends FlameGame {
   ArrowGateGame({
@@ -25,9 +30,9 @@ class ArrowGateGame extends FlameGame {
     GameplayController? controller,
     this.config = const PrototypeGameplayConfig(),
     this.debugLevel = false,
+    this.qaMode = Phase2QaMode.normal,
   }) : assetLoader = assetLoader ?? GameAssetLoader(),
-       controller =
-           controller ??
+       controller = controller ??
            GameplayController(initialState: initialBundle.gameState);
 
   final PrototypeLevelBundle initialBundle;
@@ -35,6 +40,7 @@ class ArrowGateGame extends FlameGame {
   final GameplayController controller;
   final PrototypeGameplayConfig config;
   final bool debugLevel;
+  final Phase2QaMode qaMode;
 
   late GameplayLayout layout;
   late CoreToFlameMapper mapper;
@@ -43,6 +49,8 @@ class ArrowGateGame extends FlameGame {
   final gateLaneComponents = <GateEdge, GateLaneComponent>{};
   double gateCountdown = 0;
   bool isGameplayReady = false;
+  bool _gateVisualMovement = false;
+  GateTimingSnapshot _gateTiming = const GateTimingSnapshot.stable();
 
   int get activeArrowCount => controller.state.board.arrows.values
       .where((arrow) => !arrow.exited)
@@ -67,14 +75,17 @@ class ArrowGateGame extends FlameGame {
     );
     await _addArrows();
     await _addGates();
-    hud = GameplayHudComponent(lives: controller.state.lives, screenSize: size)
-      ..priority = 50;
+    hud = GameplayHudComponent(
+      lives: controller.state.lives,
+      screenSize: size,
+    )..priority = 50;
     await add(hud);
+    gateCountdown = config.gateInterval.inMilliseconds / 1000;
+    isGameplayReady = true;
     if (debugLevel) {
       await _refreshDebug();
     }
-    gateCountdown = config.gateInterval.inMilliseconds / 1000;
-    isGameplayReady = true;
+    unawaited(_prepareReviewState());
   }
 
   Future<void> _addArrows() async {
@@ -104,22 +115,55 @@ class ArrowGateGame extends FlameGame {
   @override
   void update(double dt) {
     super.update(dt);
-    if (!isGameplayReady || controller.state.phase != GamePhase.ready) {
+    if (!isGameplayReady ||
+        _gateVisualMovement ||
+        controller.state.phase != GamePhase.ready) {
       return;
     }
     gateCountdown -= dt;
     if (gateCountdown <= 0) {
-      rotateGates();
       gateCountdown = config.gateInterval.inMilliseconds / 1000;
+      unawaited(rotateGates());
     }
   }
 
-  void rotateGates() {
-    controller.rotateGates();
-    for (final entry in controller.state.lanes.entries) {
-      gateLaneComponents[entry.key]?.refresh(entry.value);
+  Future<void> rotateGates() async {
+    if (_gateVisualMovement || controller.state.phase != GamePhase.ready) {
+      return;
     }
-    _refreshDebug();
+    _gateVisualMovement = true;
+    final startMs = DateTime.now().millisecondsSinceEpoch;
+    final commitMs = startMs + config.gateSlideDuration.inMilliseconds;
+    _gateTiming = GateTimingSnapshot(
+      state: GateTimingState.visuallyMoving,
+      rotationStartMs: startMs,
+      commitMs: commitMs,
+    );
+    controller.rotateGates();
+    await Future.wait([
+      for (final entry in controller.state.lanes.entries)
+        gateLaneComponents[entry.key]!.animateTo(
+          entry.value,
+          config.gateSlideDuration,
+        ),
+    ]);
+    _gateTiming = GateTimingSnapshot(
+      state: GateTimingState.rotationCommitted,
+      rotationStartMs: startMs,
+      commitMs: commitMs,
+    );
+    _gateVisualMovement = false;
+
+    final bufferedResult = controller.resolveBufferedTap(_gateTiming);
+    if (bufferedResult != null) {
+      _renderTapResult(bufferedResult.debug.arrowId, bufferedResult);
+    }
+
+    await _refreshDebug();
+    await Future<void>.delayed(config.timing.gateTapBuffer);
+    if (_gateTiming.commitMs == commitMs) {
+      _gateTiming = const GateTimingSnapshot.stable();
+    }
   }
 
   void handleArrowTap(String arrowId) {
@@ -129,7 +173,12 @@ class ArrowGateGame extends FlameGame {
     final result = controller.handleArrowTap(
       arrowId,
       DateTime.now().millisecondsSinceEpoch,
+      timing: _gateTiming,
     );
+    _renderTapResult(arrowId, result);
+  }
+
+  void _renderTapResult(String arrowId, TapResult result) {
     final component = arrowComponents[arrowId];
     switch (result.type) {
       case TapResultType.validExit:
@@ -141,10 +190,13 @@ class ArrowGateGame extends FlameGame {
           component.removeFromParent();
           arrowComponents.remove(arrowId);
           add(
-            GateBurstComponent(position: target, size: layout.cellSize * 1.5)
-              ..priority = 40,
+            GateBurstComponent(
+              position: target,
+              size: layout.cellSize * 1.5,
+            )..priority = 40,
           );
           controller.commitValidExit(arrowId);
+          _syncGateLanes();
           hud.refreshLives(controller.state.lives);
           if (controller.isComplete) {
             overlays.add('complete');
@@ -180,10 +232,28 @@ class ArrowGateGame extends FlameGame {
           );
         }
         _afterInvalid();
-      case TapResultType.invalidGamePhase:
       case TapResultType.tapBuffered:
+        component?.markAligned();
+        final edge = result.debug.expectedEdge;
+        final slot = result.debug.expectedSlotIndex;
+        if (edge != null && slot != null) {
+          add(
+            GateAlignmentGlowComponent(
+              position: mapper.gateSlotCenter(edge, slot),
+              size: layout.cellSize * 1.25,
+            )..priority = 40,
+          );
+        }
+        _refreshDebug();
+      case TapResultType.invalidGamePhase:
       case TapResultType.arrowNotFound:
         controller.inputController.unlock();
+    }
+  }
+
+  void _syncGateLanes() {
+    for (final entry in controller.state.lanes.entries) {
+      gateLaneComponents[entry.key]?.refresh(entry.value);
     }
   }
 
@@ -217,17 +287,71 @@ class ArrowGateGame extends FlameGame {
     gateLaneComponents.clear();
     controller.restart(initialBundle.gameState);
     isGameplayReady = false;
+    _gateVisualMovement = false;
+    _gateTiming = const GateTimingSnapshot.stable();
     await onLoad();
     resumeEngine();
+  }
+
+  Future<void> _prepareReviewState() async {
+    if (qaMode == Phase2QaMode.normal ||
+        qaMode == Phase2QaMode.prototypeGameplay ||
+        qaMode == Phase2QaMode.loading) {
+      return;
+    }
+    await Future<void>.delayed(const Duration(milliseconds: 250));
+    if (!isMounted || !isGameplayReady) {
+      return;
+    }
+    switch (qaMode) {
+      case Phase2QaMode.validAlignment:
+        arrowComponents['g_right']?.markAligned();
+        add(
+          GateAlignmentGlowComponent(
+            position: mapper.gateSlotCenter(GateEdge.right, 2),
+            size: layout.cellSize * 1.25,
+          )..priority = 40,
+        );
+      case Phase2QaMode.blockedPath:
+        handleArrowTap('g_blocked');
+      case Phase2QaMode.wrongColorGate:
+      case Phase2QaMode.noGateAligned:
+      case Phase2QaMode.lockedGate:
+        handleArrowTap('g_right');
+      case Phase2QaMode.gateRotating:
+        unawaited(rotateGates());
+      case Phase2QaMode.bufferedTap:
+        unawaited(_prepareBufferedReview());
+      case Phase2QaMode.pauseOverlay:
+        pausePrototype();
+      case Phase2QaMode.levelComplete:
+        handleArrowTap('g_right');
+      case Phase2QaMode.levelFailed:
+        handleArrowTap('g_blocked');
+      case Phase2QaMode.visualDebugLevel:
+      case Phase2QaMode.normal:
+      case Phase2QaMode.loading:
+      case Phase2QaMode.prototypeGameplay:
+        break;
+    }
+    await _refreshDebug();
+  }
+
+  Future<void> _prepareBufferedReview() async {
+    final movement = rotateGates();
+    final waitMs = config.gateSlideDuration.inMilliseconds - 100;
+    await Future<void>.delayed(Duration(milliseconds: waitMs));
+    handleArrowTap('g_right');
+    await movement;
   }
 
   Future<void> _refreshDebug() async {
     if (!debugLevel || !isGameplayReady) {
       return;
     }
-    children.whereType<VisualDebugOverlayComponent>().forEach((component) {
-      component.removeFromParent();
-    });
+    children
+        .whereType<VisualDebugOverlayComponent>()
+        .forEach((component) => component.removeFromParent());
     await add(
       VisualDebugOverlayComponent(
         phase: controller.state.phase,
