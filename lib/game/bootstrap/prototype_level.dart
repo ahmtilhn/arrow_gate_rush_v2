@@ -139,6 +139,7 @@ class PrototypeLevels {
           isLocked: true,
         ),
       ),
+      Phase2QaMode.bufferedTap => _bufferedArrival(),
       Phase2QaMode.levelComplete => _singleRequiredArrow(),
       Phase2QaMode.levelFailed => playable(lives: 1),
       Phase2QaMode.visualDebugLevel => visualDebug(),
@@ -152,6 +153,23 @@ class PrototypeLevels {
     final right = lanes[GateEdge.right]!;
     final slots = List<GateSlot?>.from(right.slots);
     slots[2] = gate;
+    lanes[GateEdge.right] = right.copyWith(slots: slots);
+    return PrototypeLevelBundle(
+      gameState: bundle.gameState.copyWith(lanes: lanes),
+      solutionOrder: bundle.solutionOrder,
+    );
+  }
+
+  static PrototypeLevelBundle _bufferedArrival() {
+    final bundle = playable();
+    final lanes = Map<GateEdge, GateLane>.from(bundle.gameState.lanes);
+    final right = lanes[GateEdge.right]!;
+    final slots = List<GateSlot?>.from(right.slots);
+    slots[1] = const GateSlot(
+      id: 'qa_arriving_green',
+      color: ArrowColor.green,
+    );
+    slots[2] = null;
     lanes[GateEdge.right] = right.copyWith(slots: slots);
     return PrototypeLevelBundle(
       gameState: bundle.gameState.copyWith(lanes: lanes),
