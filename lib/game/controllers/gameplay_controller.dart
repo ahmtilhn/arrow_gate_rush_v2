@@ -44,7 +44,7 @@ class GameplayController {
     int timestampMs, {
     GateTimingSnapshot timing = const GateTimingSnapshot.stable(),
   }) {
-    if (!inputController.tryLock()) {
+    if (_pendingAttempt != null || !inputController.tryLock()) {
       final result = TapResult(
         TapResultType.invalidGamePhase,
         TapDebugInfo(arrowId: arrowId, tapTimestampMs: timestampMs),
@@ -69,6 +69,7 @@ class GameplayController {
       state = reducer.applyTapResult(state, result);
     } else if (result.type == TapResultType.tapBuffered) {
       _pendingAttempt = attempt;
+      inputController.unlock();
     } else {
       _applyInvalidResult(result);
     }
@@ -81,6 +82,17 @@ class GameplayController {
       return null;
     }
     _pendingAttempt = null;
+    if (!inputController.tryLock()) {
+      final result = TapResult(
+        TapResultType.invalidGamePhase,
+        TapDebugInfo(
+          arrowId: attempt.arrowId,
+          tapTimestampMs: attempt.timestampMs,
+        ),
+      );
+      lastResult = result;
+      return result;
+    }
     final result = moveValidator.validate(
       state: state,
       attempt: attempt,
